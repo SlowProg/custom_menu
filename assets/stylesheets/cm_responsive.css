@@ -1,0 +1,95 @@
+@media all and (max-width: 899px) {
+  .flyout-menu ul li:first-child a,
+  .flyout-menu ul li a {
+    border-top: 1px solid rgba(255,255,255,.1);
+  }
+  .flyout-menu ul li a.selected {
+    padding: 0 2px;
+  }
+  .flyout-menu ul > li:first-child > a {
+    border-top: none;
+  }
+  .flyout-menu ul .cm-menu-divider {
+    display: none;
+  }
+  .flyout-menu a,
+  .flyout-menu a:hover,
+  .flyout-menu a.no_line:not(.in_link) span,
+  .flyout-menu a.no_line:not(.in_link):hover span,
+  .flyout-menu ul li a,
+  .flyout-menu ul li a:hover,
+  .flyout-menu ul li a.no_line:not(.in_link) span,
+  .flyout-menu ul li a.no_line:not(.in_link):hover span {
+    border-bottom: none;
+  }
+  .flyout-menu a.in_link span,
+  .flyout-menu ul li a.in_link span {
+    border-bottom-color: #FFF;
+  }
+
+
+  .flyout-menu .cm-dropdown .cm-dropdown-menu {
+    padding-left: 8px;
+    display: none;
+  }
+  .flyout-menu .cm-dropdown.open .cm-dropdown-menu {
+    display: block;
+  }
+
+  .flyout-menu h3,
+  .flyout-menu h4,
+  .flyout-menu > p,
+  .flyout-menu > a,
+  .flyout-menu ul li a,
+  .flyout-menu__search,
+  .flyout-menu__sidebar > div,
+  .flyout-menu__sidebar > p,
+  .flyout-menu__sidebar > a,
+  .flyout-menu__sidebar > form,
+  .flyout-menu > div,
+  .flyout-menu > form {
+    padding-left: 0;
+  }
+
+  .flyout-menu h3,
+  .flyout-menu h4,
+  .flyout-menu > div {
+    padding-left: 8px;
+  }
+
+  .flyout-menu ul li a {
+    border-bottom: none;
+  }
+  .flyout-menu .js-sidebar h3,
+  .flyout-menu .js-sidebar h4 {
+    margin-left: -8px;
+  }
+
+  .flyout-menu ul li div.title {
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 19px;
+
+    height: 20px;
+    margin: 0;
+    padding: 0;
+
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+    color: white;
+    border-top: 1px solid #506a83;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    background-color: #628db6;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left: 8px;
+    margin-left: -8px;
+    margin-bottom: -1px;
+  }
+  .flyout-menu .cm-projects-tree {
+    max-height: none;
+  }
+}

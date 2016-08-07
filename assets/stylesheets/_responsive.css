@@ -1,0 +1,34 @@
+@media all and (max-width: 899px) {
+  #content > .cm_contextual > a,
+  #content > .cm_contextual > form > a,
+  #content > .cm_contextual > #cm_contextual_menu > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #content > .cm_contextual > .rmplus_date_links {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #content > .cm_contextual > .rmplus_date_links a {
+    margin: 0 0 0 5px;
+    padding: 5px;
+  }
+  #content > .cm_contextual a.selected {
+    background-color: #ef7f1a;
+  }
+  #content > .cm_contextual > .rmplus_date_links .arr {
+    color: #000;
+    line-height: 30px;
+  }
+
+  #cm_contextual_menu {
+    padding: 0;
+  }
+  #content #cm_contextual_menu > a {
+    margin: 0;
+  }
+
+  #content #cm_contextual_menu .dropdown-menu li a {
+    border: none;
+  }
+}
